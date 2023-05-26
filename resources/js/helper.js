@@ -1,5 +1,6 @@
 export const borderRadius = "30px";
 export const buttonPadding = "15px";
+export const margin = "20px";
 
 export const dimensions = {
     "xs": "575px",
