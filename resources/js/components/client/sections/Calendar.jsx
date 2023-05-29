@@ -274,7 +274,7 @@ function CalendarContainer({ text }) {
                         </Price>
                     ))}
                     <Book>
-                        book now
+                        {text.button}
                     </Book>
                 </UnderlineTitle>
 

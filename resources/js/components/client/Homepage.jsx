@@ -31,7 +31,7 @@ function Homepage(props) {
             <Banner text={text.banner} />
             <Calendar text={text.calendar} />
             <Spacer />
-            <Newsletter />
+            <Newsletter text={text.newsletter} />
             <Spacer />
             <Reviews />
         </div>

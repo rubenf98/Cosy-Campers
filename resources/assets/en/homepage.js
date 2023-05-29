@@ -17,6 +17,13 @@ export const text = {
     calendar: {
         title: (<h2>Enjoy the <span>best time</span> of your life!</h2>),
         day: "day",
+        button: "book now"
+    },
+    newsletter: {
+        title: (<h2>Don't want to miss <span>anything?</span></h2>),
+        description: "Subscribe our newsletter with weekly promotions, tips and much more for you to enjoy Madeira Island in the best way possible",
+        placeholder: "Enter your email",
+        button: "submit"
     },
 
 } 
