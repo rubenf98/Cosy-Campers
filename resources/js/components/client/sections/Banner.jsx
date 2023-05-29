@@ -67,7 +67,7 @@ const Content = styled.div`
     }
 `;
 
-function Banner() {
+function Banner({ text }) {
     return (
         <Container>
             <Background src="/images/banner.jpg" />
@@ -77,8 +77,8 @@ function Banner() {
 
             <Content>
                 <div>
-                    <h2>The best island destination in the world</h2>
-                    <p>Certified material according to European directives Amazing canyoning and hiking adventures around the island Fully</p>
+                    <h2>{text.title}</h2>
+                    <p>{text.description}</p>
                 </div>
             </Content>
         </Container>

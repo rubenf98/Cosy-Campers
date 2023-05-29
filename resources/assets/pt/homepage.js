@@ -10,5 +10,12 @@ export const text = {
         details: [
             "Nature connection", " The most comfort", "Freedom to chose", "Panoramic views"],
     },
-
+    banner: {
+        title: "The best island destination in the world",
+        description: "Certified material according to European directives Amazing canyoning and hiking adventures around the island Fully",
+    },
+    calendar: {
+        title: (<h2>Aproveita a melhor  <span>aventura</span> da tua vida!</h2>),
+        day: "dia",
+    },
 } 

@@ -17,7 +17,7 @@ const Spacer = styled.div`
 function Homepage(props) {
     const { text } = require('../../../assets/' + props.language + "/homepage");
 
-    const handleLanguageChange= (value) => {
+    const handleLanguageChange = (value) => {
         localStorage.setItem("language", value);
         props.setLanguage(value)
     }
@@ -28,9 +28,8 @@ function Homepage(props) {
             <Spacer />
             <About text={text.about} />
             <Spacer />
-            <Banner />
-            <Spacer />
-            <Calendar />
+            <Banner text={text.banner} />
+            <Calendar text={text.calendar} />
             <Spacer />
             <Newsletter />
             <Spacer />

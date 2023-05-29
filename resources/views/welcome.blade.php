@@ -30,6 +30,10 @@
         margin: 0;
         position: relative;
     }
+
+    .rmdp-week-day {
+        height: 90px;
+    }
 </style>
 
 
