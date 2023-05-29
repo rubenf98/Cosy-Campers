@@ -8,6 +8,7 @@ import Newsletter from './sections/Newsletter'
 import Reviews from './sections/Reviews'
 import { connect } from 'react-redux'
 import { setLanguage } from '../../redux/application/actions';
+import Footer from './sections/Footer';
 
 const Spacer = styled.div`
     margin: 100px 0px;
@@ -34,6 +35,8 @@ function Homepage(props) {
             <Newsletter text={text.newsletter} />
             <Spacer />
             <Reviews text={text.review} />
+            <Spacer />
+            <Footer text={text.footer} />
         </div>
     )
 }

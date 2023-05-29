@@ -65,10 +65,12 @@ const ScrollingRow = styled.div`
         will-change: transform;
         transform-style: preserve-3d;
         display: inline-block;
-        margin: 50px;
+        margin: 30px;
         text-transform: uppercase;
         width: 30vw;
         height: auto;
+        border-radius: ${borderRadius};
+        box-shadow: 0px 0px 30px 3px rgba(0, 0, 0, 0.25);
 
 
         @media (max-width: ${dimensions.md}) {
