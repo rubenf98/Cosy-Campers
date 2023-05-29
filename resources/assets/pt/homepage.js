@@ -25,4 +25,8 @@ export const text = {
         placeholder: "Enter your email",
         button: "submit"
     },
+    review: {
+        title: (<h2>Beautiful <span>moments</span> made from our happy customers</h2>),
+        description: "Instead of telling you, look for yourself what our customers have been experiencing with Cosy Campers throughout on this amazing island",
+    }
 } 

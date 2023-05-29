@@ -33,7 +33,7 @@ function Homepage(props) {
             <Spacer />
             <Newsletter text={text.newsletter} />
             <Spacer />
-            <Reviews />
+            <Reviews text={text.review} />
         </div>
     )
 }
